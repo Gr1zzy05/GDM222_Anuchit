@@ -18,7 +18,7 @@ namespace Assignment02
 {
     public class Assignment_Testcase
     {
-         private const string namespaceName = "Assignment03.StudentSolution";
+         private const string namespaceName = "Assignment02.StudentSolution";
         //private const string namespaceName = "Assignment03.FinalSolution";
 
         private readonly string[] expectedClasses = {

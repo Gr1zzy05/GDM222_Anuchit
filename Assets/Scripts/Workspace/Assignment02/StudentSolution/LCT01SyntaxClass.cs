@@ -5,16 +5,19 @@ namespace Assignment02.StudentSolution.LCT01
 {
     public class Car
     {
-
+        public void write(string word)
+        {
+            Debug.Log("Car is " + word);
+        }
     }
 
-    public class LCT01SyntaxClass
+    public class LCT01SyntaxClass : Car
     {
         public void Start()
         {
-            // Student code start HERE ...
-
-            // Student code ends HERE 
+            write("moving");
+            write("turning");
+            write("honking");
         }
     }
 }
